@@ -8,17 +8,23 @@ tags: ['cline', 'ai-assisted coding']
 Here's a simple workflow for [Cline](https://cline.bot). I imagine this to be a relatively good example to get started with the concept of workflows.
 
 ````markdown
-This describes the steps to create a new git commit out of the uncommitted changes.
+This describes the steps to create a new git commit out of the
+uncommitted changes.
 
 # Step 1
-Run the following to get the diff of what is currently not committed to git:
+
+Run the following to get the diff of what is currently not committed to
+git:
 ```bash
 git --no-pager diff HEAD
 ```
 
 # Step 2
 
-Given what is not committed (as shown by the diff), and the task context, formulate a title for a commit, and a commit message. If you know why the change is made, include the reason in the commit message. Then execute the following command (modify the value of the `-m` parameter suitably):
+Given what is not committed (as shown by the diff), and the task context,
+formulate a title for a commit, and a commit message. If you know why the
+change is made, include the reason in the commit message. Then execute
+the following command (modify the value of the `-m` parameter suitably):
 ```bash
 git add . && git commit -a -m "{title}
 
