@@ -5,8 +5,10 @@ date: 2025-05-29
 tags: ['cline', 'ai-assisted coding']
 ---
 
-Here's a simple workflow for [Cline](https://cline.bot). I imagine this to be a relatively good example to get started with the concept of workflows.
+[Cline](https://cline.bot) recently got a feature called '[Workflows](https://docs.cline.bot/features/slash-commands/workflows)'. I created a relatively simple
+workflow for making AI write commit messages for me, and I think this serves like a simple but practical example on how to get started with workflows.
 
+This is the workflow definition that Cline will feed to the GenAI Model:
 ````markdown
 This describes the steps to create a new git commit out of the
 uncommitted changes.

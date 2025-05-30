@@ -1,8 +1,8 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Kalle Bjökrklid\'s development blog';
-export const siteDescription = 'Kalle Bjökrklid\'s development blog';
+export const siteName = 'Kalle Bjökrklid\'s development log';
+export const siteDescription = 'Kalle Bjökrklid\'s development log';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
@@ -26,11 +26,11 @@ export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light 
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  "Visible content: Kalle Björklid's development blog"; // alt text for default meta image"
+  "Visible content: Kalle Björklid's development log"; // alt text for default meta image"
 export const blog = {
   // RSS feed
-  name: 'Kalle Bjökrlid\'s development blog',
-  description: 'Developer blog of Kalle Björklid',
+  name: 'Kalle Bjökrlid\'s development log',
+  description: 'Developer log of Kalle Björklid',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
     {
