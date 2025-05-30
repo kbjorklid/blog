@@ -18,7 +18,7 @@ uncommitted changes.
 Run the following to get the diff of what is currently not committed to
 git:
 ```bash
-git --no-pager diff HEAD
+git add . && git --no-pager diff HEAD
 ```
 
 # Step 2
@@ -28,7 +28,7 @@ formulate a title for a commit, and a commit message. If you know why the
 change is made, include the reason in the commit message. Then execute
 the following command (modify the value of the `-m` parameter suitably):
 ```bash
-git add . && git commit -a -m "{title}
+git commit -a -m "{title}
 
 {description}"
 ```
