@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
-  "version": "4.1.9",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "kb-log",
+  "version": "1.0.0",
+  "description": "Kalle Björklid's Software Development Log",
+  "author": "Kalle Björklid",
   "license": "ISC",
   "type": "module",
   "engines": {
@@ -22,7 +22,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/kbjorklid/blog.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.0",
