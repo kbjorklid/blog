@@ -1,4 +1,4 @@
-export const url = process.env.URL || 'http://localhost:8080';
+export const url = process.env.URL || 'http://kb-log.pages.dev';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
 export const siteName = 'Kalle Bjökrklid\'s development log';
